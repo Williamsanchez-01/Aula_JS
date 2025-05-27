@@ -25,6 +25,19 @@
         document.getElementsById("resultado").innerHTML = tamanho;
     }
         
+    
+    function Parcial()
+    {
+        let string = document.getElementById("string").value;
+        let StringParcial = string.substr("11,6");
+        document.getElementById("resultado").innerHTML = StringParcial
+
+
+    }
+    
+    
+    
+    
     </script>
 
 
@@ -33,6 +46,14 @@
 
 <input type="text" name="frase" id="frase">
 <button onclick ="Trocar()">Trocar palavra</button>
+
+<input type="text" name="string" id="string">
+<button onclick ="Parcial()">String Parcial</button><br><br>
+
+
+
 <p> id="resultado"</p>
+
+
 </body>
 </html>
