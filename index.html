@@ -35,21 +35,32 @@
 
     }
     
-    
+    function posicao()
+    {
+        let string = document.getElementById("posicao").value;
+        let posicaoPalavra = frase.IndexOf("Praia")
+        document.getElementById("resultado").innerHTML = StringParcial
+
+
+    }
+
+
     
     
     </script>
 
 
 <input type="text" name="" id="">
-<button onclick ="Tamanho()">Mostrar tamanho</button>
+<button onclick ="Tamanho()">Mostrar tamanho</button><br><br>
 
 <input type="text" name="frase" id="frase">
-<button onclick ="Trocar()">Trocar palavra</button>
+<button onclick ="Trocar()">Trocar palavra</button><br><br>
 
 <input type="text" name="string" id="string">
 <button onclick ="Parcial()">String Parcial</button><br><br>
 
+<input type="text" name="posicao" id="posicao">
+<button onclick ="Posicao()">posicao palavra</button><br><br>
 
 
 <p> id="resultado"</p>
